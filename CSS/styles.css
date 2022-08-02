@@ -1,0 +1,108 @@
+/****************************TAG SELECTORS*************************/
+body {
+  background-color: #EAF6F6;
+  font-family: cursive;
+  font-size: 16px;
+  color: #0F3D3E
+}
+
+hr {
+  background-color: #EAF6F6;
+  border-style: dotted none none;
+  border-width: 6px;
+  border-color: #66BFBF;
+  width: 5%;
+}
+
+h1 {
+  color: #377D71;
+}
+
+h3 {
+  color: #377D71
+}
+
+p {
+  color: #0F3D3E;
+}
+
+a:link, a:visited {
+  color: #66BFBF;
+}
+
+a:hover, a:active {
+  color: #06283D;
+  transition-duration: 0.4s;
+}
+
+/****************************CLASS SELECTORS************************/
+.pborder1 {
+  border: 3px solid;
+  border-color: #377D71;
+  padding: 5px;
+  border-style: none none none solid;
+  border-radius: 8px;
+}
+
+.a1:hover, .a1:active {
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.submit {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 2px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+  cursor: pointer;
+  font-family: cursive;
+  font-variant: small-caps;
+}
+
+.submit1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.submit1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.img {
+  border: 8px double #377D71;
+  border-radius: 20px;
+  padding: 1px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 #377D71;
+  border-spacing: 1px;
+  transition-duration: 0.4s;
+}
+
+.img:hover {
+  border-radius: 30px;
+  transition-duration: 0.3s;
+  cursor: grabbing;
+}
